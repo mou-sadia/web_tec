@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Login Form</title>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h2>Login Form</h2>
+
+    <form onsubmit="return validateForm();">
+      <table border="1">
+        <tr>
+          <td>Email</td>
+          <td>
+            <input
+              type="text"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </td>
+          <td>
+            <p id="emailErr" style="color:red;"></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Password</td>
+          <td>
+            <input
+              type="text"
+              id="password"
+              placeholder="Enter your password"
+            />
+          </td>
+          <td>
+            <p id="passErr" style="color:red;"></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <br />
+    <p id="wrongCount" style="color:blue;"></p>
+  </body>
+</html>
