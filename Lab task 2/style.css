@@ -1,0 +1,36 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: lightblue;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+span {
+    text-align: center;
+    display: block;
+}
+th, td {
+    padding: 10px;
+}
+table {
+    border: 1px solid black;
+    margin: 20px auto;
+    background-color: white;
+}
+#name {
+    color: darkblue;
+}
+
+.heading {
+    background-color: navy;
+    color: white;
+}
+a:hover {
+    color: red;
+}
